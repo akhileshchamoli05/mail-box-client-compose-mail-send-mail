@@ -43,7 +43,7 @@ const dispatch=useDispatch();
         receive:false
       }
 
-  fetch('https://mail-client-fac6a-default-rtdb.firebaseio.com/mail.json', {
+  fetch('https://mailboxclient-dc20b-default-rtdb.firebaseio.com/users.json', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
